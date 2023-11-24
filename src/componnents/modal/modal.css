@@ -1,0 +1,53 @@
+
+
+.modalka__btn{
+    margin: 100px;
+    padding: 19px 39px;
+    border-radius: 20px;
+    border: 3px  solid transparent;
+    background-color: rgb(203, 18, 18);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 25px;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+.modalka{
+    text-align: center;
+}
+.modalka__btn:hover{
+    background-color: transparent;
+    border-color: rgb(203, 18, 18);
+    box-shadow: 7px 7px 35px rgb(203, 18, 18);
+}
+.modalka__content{
+    max-width: 500px;
+    padding: 10px;
+    background-color: #202C37;
+    border-radius: 20px;
+    position: absolute;
+    top: 323px;
+    left: 500px;
+    transition: 0.5s ease;
+    opacity: 0;
+}
+.modalka__content img{
+    width: 100%;
+    border-radius: 20px;
+}
+.push-ups{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    position: absolute;
+    bottom: 0;
+    left: 116px;
+    filter: drop-shadow(3px 3px 10px #000000);
+   
+}
+.is-active{
+    opacity: 1;
+}

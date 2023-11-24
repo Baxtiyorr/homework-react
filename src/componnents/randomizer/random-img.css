@@ -1,0 +1,31 @@
+.image-container{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   row-gap: 30px; 
+   background-color: #202C37;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   border-radius: 20px;
+}
+.image-container img{
+    border-radius: 20px;
+}
+.randomize-btn{
+    padding: 19px 39px;
+    border-radius: 20px;
+    background-color: rgb(43, 43, 229);
+    border:1px solid transparent;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 34px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.randomize-btn:hover{
+    background-color: rgb(34, 34, 156);
+}
+.randomizer{
+    margin-top: 340px;
+}
