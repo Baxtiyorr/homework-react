@@ -1,0 +1,38 @@
+.card{
+    background-color: #CFE2FF;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-wrapper{
+margin-top: 100px;
+}
+.card-text h3{
+ display: inline-block;
+ margin-left: 5px;
+ margin-bottom: 10px;
+}
+.edit-btn{
+    padding: 5px 10px;
+    background-color: rgb(45, 59, 214);
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-btn{
+    padding: 5px 10px;
+    background-color: rgb(216, 25, 25);
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}

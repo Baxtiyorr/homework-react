@@ -1,18 +1,15 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
-import MenuBar from './componnents/header/header.jsx'
-import Modal from './componnents/modal/modal'
-import RandomImage from './componnents/randomizer/random-img'
+import ContactList from './componnents/contacts/contacts'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
-    <>
-      <MenuBar/>
-      <Modal/>
-      <RandomImage/>
-    </>
+    <main>
+      <ContactList/>
+    </main>
   )
 }
 
