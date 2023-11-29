@@ -1,8 +1,9 @@
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 // import { useState } from 'react'
 import './App.css'
 import Header from './components/header/Header'
-import CountriesData from './components/CountriesData'
+import ArticlesData from './components/ArticlesData'
+import DetailsPage from './components/DetailsPage'
 
 
 function App() {
@@ -11,7 +12,10 @@ function App() {
     <BrowserRouter>
     <Header/>
     <main>
-      <CountriesData/>
+      <Routes>
+        <Route path='/articles' element={<ArticlesData/>}/>
+        <Route path='/details/:detailsId' element={<DetailsPage />}/>
+      </Routes>
     </main>
     </BrowserRouter>
   )

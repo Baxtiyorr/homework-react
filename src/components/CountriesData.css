@@ -84,12 +84,3 @@
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
-.input{
-    margin-bottom: 100px;
-    padding: 5px 20px;
-    border-radius: 10px;
-    border: 1px solid;
-    outline: none;
-    background-color: transparent;
-    color: #FFFFFF;
-}

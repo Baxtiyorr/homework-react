@@ -2,26 +2,23 @@ import { useEffect, useState } from "react";
 import './CountriesData.css'
 import Cards from "./Cards";
 
-const CountriesData = () => {
+const ArticlesData = () => {
 
 
-  const [countries, setCountries] = useState([]);
+  const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(false)
-  const [searchTerm, setSearchTerm] = useState('')
 
 
   const fetchData = async () => {
     setLoading(true)
       try {
-          let url = 'https://restcountries.com/v3.1/all';
+          let url = 'https://api.spaceflightnewsapi.net/v3/articles';
            const response = await fetch(url);
 
-           if (searchTerm.trim()) {
-            url = `https://restcountries.com/v3.1/name/${searchTerm}`;
-        }
+           
           if (response.ok) {
               const data = await response.json();
-              setCountries(data);
+              setArticles(data);
           }
 
       } catch (error) {
@@ -29,14 +26,13 @@ const CountriesData = () => {
       }
       setLoading(false)
   }
-  const handleSearch = (event) => {
-    setSearchTerm(event.target.value);
-}
+ 
 
   useEffect(() => {
       fetchData();
-  }, [searchTerm])
+  }, [])
 
+ 
 
     if(loading){
      return( <div className="loading">
@@ -48,11 +44,10 @@ const CountriesData = () => {
        
       <div className="container">
 
-        <input className="input" value={searchTerm} onChange={handleSearch} placeholder="search countries by name" />
         <div className="card-wrapper">
 
          {
-      countries.map((country, index) =>(
+      articles.map((country, index) =>(
         <Cards key={index} data={country}/>
       ))
     }
@@ -65,4 +60,4 @@ const CountriesData = () => {
   )
 }
 
-export default CountriesData
+export default ArticlesData

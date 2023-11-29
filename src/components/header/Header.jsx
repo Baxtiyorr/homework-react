@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './header.css'
 
 
@@ -7,7 +8,7 @@ const Header = () => {
       <nav>
         <div className="container">
           <div className="navbar">
-            <h2>Countries</h2>
+            <h2><Link to='/articles'>Articles</Link></h2>
             <button className="navbar__btn">LOG IN</button>
           </div>
         </div>

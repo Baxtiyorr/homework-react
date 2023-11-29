@@ -17,11 +17,13 @@ nav{
     padding: 25px 0;
 
 }
-.navbar h2{
+.navbar h2 a{
     font-weight: 700;
     font-size: 34px;
     line-height: 32px;
     filter: drop-shadow(3px 3px 10px #FFFFFF);
+    text-decoration: none;
+    color: #FFFFFF;
 
 }
 .navbar__btn{
