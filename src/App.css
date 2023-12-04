@@ -9,6 +9,10 @@
 
 html, body{
     overflow-x: hidden;
-    background-color: #2B3945;
-    color: #FFFFFF;
+    padding: 0 15px;
+}
+.layout{
+    display: grid;
+    grid-template-columns: 275px auto 373px;
+    margin: 0 auto;
 }
