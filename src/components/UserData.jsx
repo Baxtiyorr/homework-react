@@ -33,8 +33,8 @@ useEffect(() =>{
 },[])
 
     return (
-    <div>
-    </div>
+    <>
+    </>
   )
 }
 

@@ -17,12 +17,15 @@ import upload from '../assets/svg/upload.svg'
 import rate from '../assets/svg/rate.svg'
 import kebab from '../assets/images/kebab.png'
 import heart_red from '../assets/svg/heart-red.svg'
+
+
 const Layuot__main = () => {
     const [like, setLike] = useState('like')
     const [count, setCount] = useState(5)
     const [img, setImg] = useState(heart)
     const [retwit, setRetwit] = useState('retwit')
     const [counRetwit, setCountRetwit] = useState(2)
+    
 
     const clickOnLike = () =>{
         if(like == 'like'){

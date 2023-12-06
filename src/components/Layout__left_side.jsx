@@ -11,6 +11,7 @@ import profile from '../assets/svg/profile.svg'
 import more from '../assets/svg/more.svg'
 import bobur from '../assets/images/Bobur.png'
 import dots from '../assets/svg/3dots.svg'
+import register_icon from '../assets/svg/registered-regular.svg'
 
 const Layout__left_side = () => {
   return (
@@ -40,9 +41,14 @@ const Layout__left_side = () => {
                 </div><div className="left__sidebar-menu-item">
                     <img src={profile} alt="profile" />
                     <h3><Link to={`/profile`}>Profile</Link></h3>
-                </div><div className="left__sidebar-menu-item">
+                </div>
+                <div className="left__sidebar-menu-item">
                     <img src={more} alt="more" />
                     <h3><Link to={`/more`}>More</Link></h3>
+                </div>
+                <div className="left__sidebar-menu-item">
+                    <img src={register_icon} alt="register" />
+                    <h3><Link to={`/register`}>Register</Link></h3>
                 </div>
                 <button className='left-sidebar-menu-btn'>Tweet</button>
                  <div className="profile">
