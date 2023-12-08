@@ -1,0 +1,44 @@
+.form{
+    max-width: 350px;
+    margin: 0 auto;
+   text-align: center;
+   display: flex;
+   align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.form input{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid;
+}
+.title{
+    text-align: center;
+}
+.sub_btn{
+    padding: 10px 32px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #318CE7;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.list-wrapper{
+    margin-top: 20px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+}
+.del_btn{
+    background-color: red;
+
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
