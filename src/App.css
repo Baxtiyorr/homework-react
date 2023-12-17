@@ -6,13 +6,27 @@
 }
 
 /* background-color:#202C37; */
+@font-face {
+    font-family: 'Mulish', sans-serif;
+    src: url(./assets/svg-icons/fonts/Mulish-Regular.ttf);
+}
 
 html, body{
     overflow-x: hidden;
     padding: 0 15px;
 }
-.layout{
-    display: grid;
-    grid-template-columns: 275px auto 373px;
-    margin: 0 auto;
+body{
+    font-family: 'Mulish', sans-serif;  
+}
+.dark-mode{
+    background-color: #0F0F0F;
+    color: #ffffff;
+}
+.dark{
+    background-color: #0F0F0F;
+    color: #ffffff;
+}
+.light{
+    background-color: #ffffff;
+    color: #0F0F0F;
 }

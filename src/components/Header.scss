@@ -1,0 +1,87 @@
+.header{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_left{
+        display: flex;
+        align-items: center;
+        column-gap: 28px;
+    }
+    &_middle{
+        width: 830px;
+        display: flex;
+        align-items: center;
+        border: 2px solid transparent;
+        border-radius: 20px;
+        transition: 0.2s ease;
+    }
+    &_right{
+        display: flex;
+        align-items: center;
+        column-gap: 45px;
+        & button {
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+    &_icons{
+        cursor: pointer;
+    }
+}   
+.search_input{
+    width: 100%;
+    padding: 12px 23px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #fafafa;
+    outline: none;
+}
+.search_icon{
+    border: 1px solid transparent;
+    padding: 10px 23px 11px 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #fafafa;
+
+}
+.header_middle:hover{
+    border: 2px solid #000000;
+}
+.notifications_wrapper{
+    position: relative;
+}
+.notes{
+    width: 18px;
+    background-color: #FF0000;
+    text-align: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+    position: absolute;
+    top: -7px;
+    right: -4px;
+    cursor: pointer;
+}
+.react_icon{
+    width: 21px;
+    height: 21px;
+    max-width: 100px;
+}
+.menu_btn{
+    cursor: pointer;
+}
+.dark{
+   background-color:  #0F0F0F;
+   color: white;
+}
+.light{
+    background-color: white;
+    color: #000000;
+}
+@media screen and (max-width:664px) {
+   .header_right{
+    display: none;
+   }
+}

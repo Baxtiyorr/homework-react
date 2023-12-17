@@ -1,0 +1,114 @@
+iframe{
+    border-radius: 10px;
+}
+
+.video_content{
+    max-width: 1063px;
+    font-family: 'Mulish', sans-serif;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rates{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.rates h3{
+    display: flex;
+    align-items: center;
+}
+.porfile{
+    display: flex;
+    column-gap: 12px;
+}
+.video_desc{
+    margin-top: 4   0px;
+}
+.chanel button{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+}
+.chanel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.description button{
+    color: gray;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.main_wrapper{
+    display: flex;
+    column-gap: 80px;
+}
+.next_vids{
+    font-family: 'Mulish', sans-serif;
+}
+.next_vids_title{
+    display: flex;
+    align-items: center;
+    column-gap: 138px;
+}
+.next_vids_title h2{
+    font-size: 36px;
+    line-height: 46px;
+}
+.next_vids_title h3{
+    display: flex;
+    align-items: center;
+    column-gap: 29px;
+    font-size: 16px;
+    line-height: 20px;
+}
+@media screen and (max-width:1422px) {
+    .video_content{
+        max-width: 863px;
+        font-family: 'Mulish', sans-serif;
+    }
+    iframe{
+        width: 863px;
+    }
+}
+@media screen and (max-width:1156px) {
+    .video_content{
+        max-width: 663px;
+        font-family: 'Mulish', sans-serif;
+    }
+    iframe{
+        width: 663px;
+    }
+}
+@media screen and (max-width:977px) {
+    .main_wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .video_content{
+        width:100%;
+        font-family: 'Mulish', sans-serif;
+    }
+    iframe{
+        width: 100%;
+    }
+}
+@media screen and (max-width:976px) {
+    
+    .video_content{
+        max-width:1163px ;
+        font-family: 'Mulish', sans-serif;
+    }
+    iframe{
+        width: 100%;
+    }
+    .next_vids{
+        margin: 0 auto;
+    }
+}

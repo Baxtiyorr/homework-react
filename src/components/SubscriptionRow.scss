@@ -1,0 +1,33 @@
+.subscriptionRow{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    height: 35px;
+}
+.chanel_logo{
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    object-fit: contain;
+    margin-right: 15px;
+}
+.live_icon{
+    width: 18px;
+    height: 18px;
+}
+.chanel_name{
+    color: rgb(65, 65, 65);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Mulish', sans-serif;
+}
+.left{
+    flex: 0.83;
+    display: flex;
+    align-items: center;
+}
+.right{
+    flex: 0.17;
+    display: flex;
+    align-items: center;
+}

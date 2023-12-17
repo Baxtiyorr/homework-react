@@ -1,0 +1,27 @@
+.sidebar_row{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 192px;
+    padding: 10px 20px;
+}
+.sidebar_row_title{
+    flex:1 ;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(92, 92, 92);
+    font-family: 'Mulish', sans-serif;
+}
+.sidebar_row:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.dark{
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+}
+.light{
+    background-color: #FFFFFF;
+    color: #0F0F0F;
+}
